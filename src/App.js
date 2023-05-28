@@ -3,6 +3,7 @@ import { useState } from "react";
 import React from "react";
 import Meals from "./components/Meals/Meals";
 import Cart from "./components/Cart/Cart";
+import CartProvider from "./store/CartProvider";
 
 const App = () => {
   
